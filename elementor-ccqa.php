@@ -38,14 +38,6 @@ if ( ! defined( 'WPINC' ) ) {
 
 define( 'CCQA_DIR', plugin_dir_path( __FILE__ ));
 
-
-//add_action( 'elementor_pro/init', 'elementorCcqaInit' );
-//
-//function elementorCcqaInit(){
-//    require_once CCQA_DIR.'theme-builder/formBuilder.php';
-//
-//}
-
 add_action( 'elementor/editor/before_enqueue_scripts', function () {
     wp_enqueue_script(
         'ccqa-js',
