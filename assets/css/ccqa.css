@@ -1,0 +1,94 @@
+.costum-css-quick-access * {
+    box-sizing: border-box;
+}
+
+.costum-css-quick-access .loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.8);
+    display: flex;
+    z-index: 9999;
+}
+
+.costum-css-quick-access .loading p {
+    margin: auto;
+    text-align: center;
+    font-size: 6vw;
+    font-family: "SansSerif"
+}
+
+.costum-css-quick-access .section-wrapper {
+    border: 1px solid rgba(0, 0, 0, .3);
+    padding: 10px 0 0;
+    box-sizing: border-box
+}
+
+.costum-css-quick-access .section-wrapper .section-wrapper {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+
+.costum-css-quick-access .collumn-wrapper,
+.costum-css-quick-access .widget-wrapper,
+.costum-css-quick-access .inner-section-wrapper {
+    border-top: 1px solid rgba(0, 0, 0, .3);
+}
+
+.costum-css-quick-access .section-wrapper,
+.costum-css-quick-access .inner-section-wrapper {
+    background: #f3f3f3;
+}
+
+.costum-css-quick-access .collumn-wrapper,
+.costum-css-quick-access .widget-wrapper {
+    background: #fff;
+}
+
+.costum-css-quick-access .content-wrapper {
+    display: flow-root;
+}
+
+.costum-css-quick-access .content-wrapper > span {
+    padding-left: 20px;
+}
+
+.costum-css-quick-access .title {
+    font-size: 16px;
+    color: #333333;
+    padding-bottom: 10px;
+}
+
+.costum-css-quick-access .custom-class,
+.costum-css-quick-access.custom-id {
+    font-size: 14px;
+    color: #333333;
+}
+
+.costum-css-quick-access .hidden > .title > .eicon-sort-down {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.costum-css-quick-access .icon {
+    padding: 0 5px;
+}
+
+.costum-css-quick-access .ace_editor {
+    border: 1px solid lightgray;
+    margin: 10px 20px;
+    width: calc(100% - 100px);
+    max-width: 800px;
+}
+
+.loading-wrapper {
+    margin: 10px;
+}
+
+.section-wrapper .section-wrapper {
+    background: rgba(0, 0, 0, 0.05)
+}
