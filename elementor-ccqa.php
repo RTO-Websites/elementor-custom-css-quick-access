@@ -15,7 +15,7 @@ use Elementor\Elements_Manager;
  *
  * @link              https://www.rto.de
  * @since             1.0.0
- * @package           Elementor Custom CSS Quick Access
+ * @package           ElementorCustomCSSQuickAccess
  *
  * @wordpress-plugin
  * Plugin Name:       Elementor Custom CSS Quick Access (ccqa)

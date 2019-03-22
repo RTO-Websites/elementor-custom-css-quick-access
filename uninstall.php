@@ -22,7 +22,7 @@
  * @link       https://www.rto.de
  * @since      1.0.0
  *
- * @package    DynamicConditions
+ * @package    ElementorCustomCSSQuickAccess
  */
 
 // If uninstall not called from WordPress, then exit.
